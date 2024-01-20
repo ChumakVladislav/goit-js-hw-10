@@ -33,3 +33,28 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+.index-links {
+  display: flex;
+  justify-content: center;
+
+  width: 100vw;
+  height: 100vh;
+}
+
+.index-links a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  height: 100vh;
+
+  background-color: #7FFFD4;
+  padding: 10px;
+
+  text-align: center;
+}
+
+.index-links a:hover {
+  background-color: aqua;
+}
